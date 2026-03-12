@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.10)
 
 project(libdrng C)
 
-add_executable(libdrng main.c)
+add_executable(libdrng rdrand.c)
